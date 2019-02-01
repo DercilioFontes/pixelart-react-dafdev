@@ -1,0 +1,19 @@
+.Button {
+  font-size: 7vmin;
+  background: #ededed;
+  border: 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.Button:active {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+  outline: none;
+}
+
+.Button:focus {
+  outline: none;
+}
